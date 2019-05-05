@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter1" />
+        <module name="Chapter1 (1)" />
+        <module name="Chapter3-1-1" />
         <module name="springBoot-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter1" target="1.8" />
+      <module name="Chapter1 (1)" target="1.8" />
+      <module name="Chapter2-restful Api" target="1.8" />
+      <module name="Chapter3-1-1" target="1.8" />
       <module name="demo" target="1.5" />
       <module name="springBoot-demo" target="1.5" />
     </bytecodeTargetLevel>
